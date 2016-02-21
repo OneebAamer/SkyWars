@@ -1,0 +1,9 @@
+name: SkyWars
+main: xbeastmdoe\skywars
+version: 1.0.0
+api: 1.0.0
+commands:
+sw:
+description: "Main command for this plugin"
+usage: "/sw join/leave"
+permission: skywars.command.sw
