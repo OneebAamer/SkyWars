@@ -1,0 +1,21 @@
+<?php
+namespace xbeastmode\skywars\Commands;
+
+use pocketmine\plugin\PluginBase;
+use pocketmine\command\Command;
+use pocketmine\command\CommandSender;
+
+class JoinCommand extends PluginBase;
+public function onCommand(CommandSender $issuer, Command $cmd, $label, array $args){
+  switch($cmd->getName()){
+    case "cmd-a":
+      if($issuer instanceof ConsoleCommandSender){
+      $issuer->sendMessage("Please run this command in-game.");
+      return true;
+    }
+    if(!isset($args[0])){
+      return false;
+    }
+   //idk what to put here to let players join the match :/
+  }
+}
