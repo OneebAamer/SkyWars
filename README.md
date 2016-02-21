@@ -9,6 +9,6 @@
 TO DO
 ------
 + Make sign refresher
-+ Add commands
++ Add commands (started)
 + Waiting tasks
 + Map resetter
